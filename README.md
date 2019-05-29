@@ -22,7 +22,7 @@ pip install bert-tensorflow # for using bert model
 ```
 
 ## Usage:
-Preferably run notebook "pos_tagger_bert_tensorflow.ipynb", or
+Preferably run notebook `pos_tagger_bert_tensorflow.ipynb`, or
 ```
 bash run_pos.sh
 ```
