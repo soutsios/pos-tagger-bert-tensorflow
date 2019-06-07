@@ -4,7 +4,7 @@ Fine-tune Google's BERT for POS-tagging task (UD Treebank as the dataset).
 
 ## Folder Description:
 ```
-bert-tensorflow-pos
+pos-tagger-bert-tensorflow
 |____ pos_tagger_bert_tensorflow.ipynb  # Notebook with all actions required to download UD Treebank dataset and BERT model, fine-tune BERT, and evaluate POS tagger
 |____ bert_pos.py           # Main code
 |____ data                  # Train data
@@ -57,3 +57,5 @@ perl conlleval.pl -o '[SEP]' -r -d '\t' < ./output/result_dir/label_test.txt
 
 [2] https://github.com/google-research/bert
 
+## Acknowledgement
+<a href="https://eclass.aueb.gr/courses/INF210/">Natural Language Processing</a> course is part of the MSc in Computer Science of the Department of Informatics, <a href="https://aueb.gr/en">Athens University of Economics and Business</a>. The course covers algorithms, models and systems that allow computers to process natural language texts and/or speech.
